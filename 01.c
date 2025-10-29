@@ -1,3 +1,10 @@
+/*************************
+ * Autor: Juan Pablo Sanchez
+ * Fecha:28/10/2025
+ * Profesor: Jhon Corredor
+ * Clase: Sistemas Operativos
+ * **************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -28,4 +35,5 @@ int main() {
     printf("Thread 1 returns: %d\n", iret1);
     printf("Thread 2 returns: %d\n", iret2);
     return 0;
+
 }
