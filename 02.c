@@ -1,3 +1,9 @@
+/*************************
+ * Autor: Juan Pablo Sanchez
+ * Fecha:28/10/2025
+ * Profesor: Jhon Corredor
+ * Clase: Sistemas Operativos
+ * **************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -36,4 +42,5 @@ int main() {
 
     printf("Final counter value: %d\n", counter);
     return 0;
+
 }
