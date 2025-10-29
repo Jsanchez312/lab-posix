@@ -1,3 +1,9 @@
+/*************************
+ * Autor: Juan Pablo Sanchez
+ * Fecha:28/10/2025
+ * Profesor: Jhon Corredor
+ * Clase: Sistemas Operativos
+ * **************************/
 #include <stdio.h>
 #include <pthread.h>
 
@@ -30,4 +36,5 @@ int main(){
 
     printf("Value of balance is :%ld\n", balance);
     return 0;
+
 }
