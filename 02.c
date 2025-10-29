@@ -1,9 +1,16 @@
-/*************************
- * Autor: Juan Pablo Sanchez
- * Fecha:28/10/2025
- * Profesor: Jhon Corredor
- * Clase: Sistemas Operativos
- * **************************/
+/*********************************************************************************************
+ * Pontificia Universidad Javeriana
+ * Autor: Juan Pablo Sánchez
+ * Materia Sistemas Operativos
+ * Docente: J. Corredor, PhD
+ * Fecha: 27/10/2025
+ * Tema: Posix para la creación de hilos concurrentes:
+ *
+ * Descripción:
+ * "Este código demuestra protección de contador compartido usando mutex para prevenir
+ *  condiciones de carrera en acceso concurrente"
+ *
+ *********************************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -44,3 +51,4 @@ int main() {
     return 0;
 
 }
+
