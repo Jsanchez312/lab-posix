@@ -1,9 +1,16 @@
-/*************************
- * Autor: Juan Pablo Sanchez
- * Fecha:28/10/2025
- * Profesor: Jhon Corredor
- * Clase: Sistemas Operativos
- * **************************/
+/*********************************************************************************************
+ * Pontificia Universidad Javeriana
+ * Autor: Juan Sánchez
+ * Materia Sistemas Operativos
+ * Docente: J. Corredor, PhD
+ * Fecha: 27/10/2025
+ * Tema: Posix para la creación de hilos concurrentes:
+ *
+ * Descripción:
+ * "Este código evidencia condiciones de carrera en operaciones de incremento/decremento
+ *  sin mecanismos de sincronización"
+ *
+ *********************************************************************************************/
 #include <stdio.h>
 #include <pthread.h>
 
@@ -25,3 +32,4 @@ int main(void) {
     return 0;
 
 }
+
