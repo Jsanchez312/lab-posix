@@ -1,3 +1,9 @@
+/*************************
+ * Autor: Juan Pablo Sanchez
+ * Fecha:28/10/2025
+ * Profesor: Jhon Corredor
+ * Clase: Sistemas Operativos
+ * **************************/
 #include <stdio.h>
 #include <pthread.h>
 #include <unistd.h>
@@ -24,4 +30,5 @@ int main()
     pthread_join(thread02, NULL);
     
     return 0;
+
 }
