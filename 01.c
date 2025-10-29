@@ -1,6 +1,6 @@
 /*********************************************************************************************
  * Pontificia Universidad Javeriana
- *
+ * Autor:Juan Pablo Sánchez
  * Materia Sistemas Operativos
  * Docente: J. Corredor, PhD
  * Fecha: 27/10/2025
@@ -44,4 +44,5 @@ int main() {
     return 0;
 
 }
+
 
