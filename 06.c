@@ -1,3 +1,9 @@
+/*************************
+ * Autor: Juan Pablo Sanchez
+ * Fecha:28/10/2025
+ * Profesor: Jhon Corredor
+ * Clase: Sistemas Operativos
+ * **************************/
 #include <stdio.h>
 #include <pthread.h>
 
@@ -17,4 +23,5 @@ int main(void) {
     function(-1);
     printf("Sum = %lld\n", sum);
     return 0;
+
 }
