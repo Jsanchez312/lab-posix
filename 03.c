@@ -1,9 +1,17 @@
-/*************************
- * Autor: Juan Pablo Sanchez
- * Fecha:28/10/2025
- * Profesor: Jhon Corredor
- * Clase: Sistemas Operativos
- * **************************/
+/*********************************************************************************************
+ * Pontificia Universidad Javeriana
+ * Autor: Juan Sánchez
+ * Materia Sistemas Operativos
+ * Docente: J. Corredor, PhD
+ * Fecha: 27/10/2025
+ * Tema: Posix para la creación de hilos concurrentes:
+ *
+ * Descripción:
+ * "Este código implementa sincronización con variables de condición para coordinar
+ *  el trabajo entre múltiples hilos basado en rangos de valores"
+ *
+ *********************************************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -65,3 +73,4 @@ int main() {
     return 0;
 
 }
+
